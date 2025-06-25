@@ -9,7 +9,7 @@ const recipeRouter = require('./Routes/reciper')
 const app = express()
 
 app.use(cors({
-    origin:["https://vercel-recipe-seven.vercel.app"],
+    origin:["https://vercel-recipe-alpha.vercel.app"],
     methods:["GET","POST","PUT"],
     credentials:true
 }))
